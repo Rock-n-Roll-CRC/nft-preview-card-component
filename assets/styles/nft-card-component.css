@@ -6,7 +6,7 @@
   border-radius: 15px;
 }
 
-.nft-card-component img {
+.nft-card-image {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -21,4 +21,75 @@
   color: #8cacd9;
   font: 300 18px Outfit, sans-serif;
   line-height: 1.48;
+  margin-bottom: 23.3px;
+}
+
+.nft-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.nft-price,
+.nft-time-left {
+  display: flex;
+  align-items: center;
+}
+
+.nft-price {
+  gap: 6.5px;
+}
+
+.nft-time-left {
+  gap: 7px;
+}
+
+.nft-price img {
+  height: 18px;
+  width: 11px;
+}
+
+.nft-price p {
+  color: #00fff7;
+  font: 600 15px Outfit, sans-serif;
+  letter-spacing: 0.75px;
+}
+
+.nft-time-left img {
+  height: 17px;
+  width: 17px;
+}
+
+.nft-time-left p {
+  color: #8cacd9;
+  font: 400 15px Outfit, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+hr {
+  border-top: 0.1px solid #2e415c;
+  margin-bottom: 15px;
+}
+
+.nft-author {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nft-author img {
+  width: 33px;
+  border: 1.5px solid #fff;
+  border-radius: 20px;
+}
+
+.nft-author p {
+  color: #8cacd9;
+  font: 400 16px Outfit, sans-serif;
+}
+
+.nft-author span {
+  color: #fff;
+  letter-spacing: 0.2px;
+  padding-left: 1px;
 }
