@@ -7,14 +7,45 @@
 }
 
 .nft-card-image {
-  width: 100%;
+  position: relative;
+  height: 301px;
+  width: 301px;
+  overflow: hidden;
+  cursor: pointer;
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+}
+
+.nft-card-image-default {
+  height: 100%;
+  width: 100%;
+}
+
+.nft-card-image-hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #00fff775;
+  visibility: hidden;
+}
+
+.nft-card-image:hover .nft-card-image-hover {
+  visibility: visible;
 }
 
 .nft-name {
   font: 600 22px Outfit, sans-serif;
   margin-bottom: 15.5px;
+  cursor: pointer;
+}
+
+.nft-name:hover {
+  color: #00fff7;
 }
 
 .nft-description {
@@ -92,4 +123,9 @@ hr {
   color: #fff;
   letter-spacing: 0.2px;
   padding-left: 1px;
+  cursor: pointer;
+}
+
+.nft-author span:hover {
+  color: #00fff7;
 }
