@@ -109,6 +109,7 @@ hr {
 }
 
 .nft-author img {
+  height: 33px;
   width: 33px;
   border: 1.5px solid #fff;
   border-radius: 20px;

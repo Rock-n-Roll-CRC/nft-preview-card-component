@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simple NFT preview card of Equilibrium, containing its price, image and time left."
+    />
     <title>NFT preview card component</title>
 
     <link rel="stylesheet" href="./assets/styles/general.css" />
@@ -19,17 +23,17 @@
   <body>
     <main>
       <header>
-        <h1 aria-label="NFT preview card component"></h1>
+        <h1 class="visually-hidden">NFT preview card component</h1>
       </header>
 
-      <article class="nft-card-component">
-        <div role="contentinfo" class="nft-card-image">
+      <div class="nft-card-component">
+        <div class="nft-card-image">
           <img
             src="./assets/images/image-equilibrium.jpg"
             alt="Colorful and blazing cube standing on one of its corners in an empty gradient blue room, casting a shadow on the floor"
             class="nft-card-image-default"
           />
-          <div role="img" class="nft-card-image-hover">
+          <div class="nft-card-image-hover">
             <img src="./assets/images/icon-view.svg" alt="White eye" />
           </div>
         </div>
@@ -39,15 +43,15 @@
           Our Equilibrium collection promotes balance and calm.
         </p>
 
-        <div role="contentinfo" class="nft-details">
-          <div role="contentinfo" class="nft-price">
+        <div class="nft-details">
+          <div class="nft-price">
             <img
               src="./assets/images/icon-ethereum.svg"
               alt="Ocean blue rhombus"
             />
             <p>0.041 ETH</p>
           </div>
-          <div role="contentinfo" class="nft-time-left">
+          <div class="nft-time-left">
             <img src="./assets/images/icon-clock.svg" alt="Soft blue clock" />
             <p>3 days left</p>
           </div>
@@ -55,14 +59,14 @@
 
         <hr />
 
-        <div role="contentinfo" class="nft-author">
+        <div class="nft-author">
           <img
             src="./assets/images/image-avatar.png"
             alt="A white teenager boy in a white t-shirt looking into the distance with a half of his face in shadow and another half in sunlight"
           />
           <p>Creation of <span>Jules Wyvern</span></p>
         </div>
-      </article>
+      </div>
     </main>
   </body>
 </html>
