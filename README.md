@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-tnQstSGUGd](https://www.frontendmentor.io/solutions/nft-preview-card-component-tnQstSGUGd)
 - Live Site URL: [https://rock-n-roll-crc.github.io/nft-preview-card-component/](https://rock-n-roll-crc.github.io/nft-preview-card-component/)
 
 ## My process
